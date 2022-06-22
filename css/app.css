@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: "Raleway";
+}
+
+body{
+    background-image: url(../img/2.png);
+    background-size: cover;
+    background-position: center;
+}
+
+.container{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,0,255,0.5)), color-stop(17%, rgba(255,0,255,0.5)), color-stop(58%, rgba(176,0,176,0.5)), color-stop(100%, rgba(97,0,97,0.5)));
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-flow: column;
+    background-color: white;
+    width: 40%;
+    height: 80%;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0,0,0,0.8) 0px 0px 50px;
+    border-radius: 10px;
+}
+
+input, textarea{
+    border: none;
+    resize: none;
+    outline: none;
+    padding: 15px 0px;
+    width: 80%;
+    margin: 20px;
+    transition: all 300ms;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+input:focus, textarea:focus{
+    border-bottom-color: #610061 ;
+}
+
+
+button{
+    border: none;
+    outline: none;
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, rgba(255,0,255,1)), color-stop(17%, rgba(255,0,255,1)), color-stop(58%, rgba(176,0,176,1)), color-stop(100%, rgba(97,0,97,1)));
+    padding: 15px;
+    width: 200px;
+    color: white;
+    border-radius: 2px;
+    box-shadow: rgba(0,0,0,0.7) 0px 0px 10px;
+    margin: 20px 0px;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+button:hover{
+    transform: scale(1.05);
+    box-shadow: rgba(0,0,0,0.9) 0px 0px 10px;
+}
